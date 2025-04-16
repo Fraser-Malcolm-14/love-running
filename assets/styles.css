@@ -129,6 +129,14 @@ footer {
     /*Main Content*/
     main {
         /* Push Main content down to accomodate larger header */
-        margin-top: 79px;
+        margin-top: 75px;
+    }
+}
+
+/* Large devices (laptops and desktops, 992px and up) */
+@media screen and (min-width: 992px) {
+    /*Hover not working although correct CSS is being used - fix later! */
+    #menu a:hover {
+        border-bottom: 1px solid #3a3a3a;
     }
 }
